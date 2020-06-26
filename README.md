@@ -1,27 +1,46 @@
-# MaterialStarter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+# Readme
 
-## Development server
+Update to Angular 9
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### @angular/flex-layout
 
-## Code scaffolding
+@9.0.0-beta.31 for Angular 9
+mediaQuery
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### @angular/material
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+need @angular/cdk
 
-## Running unit tests
+add fonts & icons
+```html
+ <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+国内加速 Google Fonts
+https://www.iowen.cn/google-fontsajax-he-gravatar-guoneijiasufuwu/
 
-## Running end-to-end tests
+使用的时候，您只需要替换 fonts.googleapis.com 为 fonts.loli.net 即可，如
+```html
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+```
+替换为：
+```html
+<link href='https://fonts.loli.net/css?family=Open+Sans' rel='stylesheet'>
+<link href='https://fonts.loli.net/icon?family=Material+Icons' rel='stylesheet'>
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### fast xml parser
+https://www.npmjs.com/package/fast-xml-parser
 
-## Further help
+### Source Code
+* https://github.com/ajtowf/angularmaterial
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### reference
+* https://material.io/guidelines/
+* https://material.angular.io/
+* https://github.com/angular/material
+
